@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logoContainer{
+   width: 8vw;
+}.footerLogo{
+  width: 100%;
+  font-family: Merriweather;
+  color: #f5f5f5;
+}
+
+.linksContainer{
+    align-items: center ;
+    display: flex;
+    margin-bottom: clamp(38px,5.8vh,58px);
+    
+
+}.whatsappContainer{
+
+    margin-left: 12.7vw;
+    cursor: pointer;
+}
+.instagramContainer{
+    margin-left: 1vw;
+margin-right:10.5vw ;
+}
+
+

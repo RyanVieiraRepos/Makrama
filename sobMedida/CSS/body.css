@@ -1,0 +1,88 @@
+.body{
+ margin: 0px;
+ padding: 0px;
+ background: linear-gradient(180deg,rgb(207, 168, 115),rgb(236, 214, 184))
+}
+
+.bodyContainer{ 
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom: auto;
+    
+}
+
+
+.vitrine{
+    align-items: center;
+    justify-content:space-evenly;
+    display: flex;
+   
+} .amostra1{
+    background-image: url(produto1.png);
+    background-repeat:no-repeat ;
+    background-size: 280px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    margin-left: 200px;
+    transition: transform 0.2s ease;
+    cursor:pointer;    
+}
+
+
+
+.amostra1:hover{
+    transform: scale(1.1);
+}.nomeProduto{
+    height: 30px;
+    
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+}.strongNomeProduto{
+    margin-top: 4px;
+    
+}.ImagemProduto{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(213, 62, 62);
+    width: 100px;
+    height: 100px;
+}.img1{
+    margin-left:40px ;
+    width: 200px;   
+    border-radius: 15px;
+}
+
+
+.ImageContainer{
+    margin-right: ;
+}.personImg{
+    height: 490px;
+    width: 500px;
+}
+
+.textContainer{
+
+}.titleContainer{
+
+}.title{
+    margin-left: 60px;
+ font-size: 40px;
+ color: white;
+}
+
+.paragrafoContainer{
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 40px;
+    color: white;
+} .paragrafo{
+ 
+}
+
+
