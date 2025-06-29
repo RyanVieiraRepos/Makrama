@@ -1,47 +1,36 @@
 
-.FooterTitleContainer{
-   margin-top: 100px;
-   margin-left: 90px;
 
-
-}.footerTitle{
-    font-size: 24px;
-    color: white;
-}
 
 .footer{
     width: 100%;
-    height: 100px;
-    margin-top: 0px;
+    display: flex;
     
-}.linksContainer{
+    
+}
+
+.strongLogo{
+  margin-top: 0.4vh;
+  margin-left:10.5vw ;
+  color: white;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.linksContainer{
     align-items: center ;
     justify-content:left ;
     display: flex;
-    margin-left: 207px;
-    margin-top: 15px;
+    margin-top: 1vh;
+   
 
-    
 } .whatsappContainer{
-    margin-right:15px ;
+    margin-left: 12.7vw;
     cursor: pointer;
 }
 .instagramContainer{
-
+  margin-left: 1vh;
+  margin-right: 10.5vw;
+  cursor: pointer;
 }
 
 
-.footerContainer{
-    
-    background-color: rgb(207, 168, 115);
-}
-.contactmeContainer{
-    
-    margin-top: 0px;
-    margin-left: 204px;
-}
-
-.strongFooter{
- color: black;
- font-size: 20px;
-}

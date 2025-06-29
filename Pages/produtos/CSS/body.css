@@ -1,168 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Lusitana:wght@400;700&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
-.body{
+.body {
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(180deg,rgb(207, 168, 115),rgb(236, 214, 184));
-    background-repeat:no-repeat ;
-    height: 1000px;
-   }
-   
+    background: linear-gradient(180deg, rgb(202, 175, 137), rgb(177, 154, 123));
+    background-repeat: no-repeat;
+    font-family: Lusitana;
+    font-weight: 1200;
+    height: 100vh;
+     
+}
 
-   .productsContainer{
-    display: flex;
-    align-items:center;
-    justify-content:space-evenly;
-    width: 100%;
-    margin-top: 120px;
-    margin-bottom: 20vh;
-   }
-   
-   .block1{
-    width: 300px;
-    height: 300px;
-    border-radius: 15px;
-    margin-left: 200px;
-    background-color:rgb(213, 173, 116);
-
-    
-    
-   }.priceFilterTitle{
-    font-size: 20px;
-    margin-left: 50px;
-   }
-
-   .PriceFilter{
-    margin-top:15px;
-    margin-left: 60px;
-   }.deContainer{   
-
-   }.deStrong{
-     margin-right: 4px;
-   }.deInput{
-    width: 60px;
-   }
-
-   .atéContainer{
-    margin-top: 6px;
-
-   }.atéStrong{
-
-   }.atéInput{
-    width: 60px;
-   }
-
-
-   .vitrine{
-     display: flex;
-   
-   }.prateleira1{
-    width: 100%;
-    justify-content:space-between;
-    display: flex;
-    align-items: center
-   }
-
-   
-
-   .produto1{
-    background-color: white;
-    margin-left:120px ;
-    width: 200px;
-    height: 300px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    cursor:pointer;
-    transition:all 0.1s ease-out;
-   }.produto1:hover{ transform: scale(1.1);}
-   
-   .produto2{
-    margin-left:150PX;
-    width: 200px;
-    height: 300px;
-    background-color:white ;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    cursor: pointer;
-    border-radius: 9px;
-    transition:all 0.1s ease-out;
-    
-   }.produto2:hover{
-    transform: scale(1.1);
-   }
-   .makrama1{
-    border-radius: 9px;
-    background-color: aqua;
-    height: 230px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-   }
-   
-   .makrama2{
-    border-radius: 9px;
-    background-color: aqua;
-    height: 230px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-   }
-
-   
-   .priceBlock{
-    display: flex;
-    justify-content: space-between;
-    align-items: ;
-   }.descriptionContainer{
-    margin-left: 20px;
-    
-   }.TitleContainer{
-    font-size: 16px;
-   }.produto2Title{
-    margin-left: 8px;
-   }
-
-   .produto2Description{
-    margin-left:15px ;
-   }
-   .produto2DescriptionStrong{
-    font-size: 12px;
-    margin-left: ;
-   }.produto2DescriptionStrong2 {
-    font-size: 12px;
-   }
-
-   .Price2Strong{
-    font-size:20px;
-    margin-right: 20px;
-   }
-
-   
-  .prateleira2{
-    display: flex;
-    justify-content: ;
-    align-items: center;
-    margin-left: 500px;
-    margin-top:40px ;
-   }.produto3{
-    margin-left:150PX;
-    width: 200px;
-    height: 300px;
-    background-color:white ;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    cursor: pointer;
-    border-radius: 9px;
-    transition:all 0.1s ease-out;
-  }.produto3:hover{
-    transform: scale(1.1);
-  }
+.products{
+  display: flex;
+  justify-content: space-between;
   
-  .produto4{
-    margin-left:150PX;
-    width: 200px;
-    height: 300px;
-    background-color:white ;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    cursor: pointer;
-    border-radius: 9px;
-    transition: all 0.1s ease-out;
-  }.produto4:hover{
-    transform: scale(1.1);
-  }
+  margin-left: 10.5vw;
+  margin-right: 10.5vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}.product{
+  background-color:#ffffff;
+  width: 25vw;
+  height: 24vw;
+  border-radius: 0.2vw;
+  transition: 0.15s all;
+  cursor: pointer;
+  margin-bottom: 10vh;
+  
+}.product:hover{
+  
+}.image{
+  margin-left: 1vw;
+  width: 90%;
+  height: 90%;
+}.image3{
+  width: 96%;
+}.png{
+  width: 100%;
+  height: 100%;
+}.png3{
+ width: 100%;
+ height: 40vh;
+}
+
+.text{
+  margin-top: 6vh;
+}.description{
+
+}.title{
+  color: white;
+  font-size: 2rem;
+}.p{
+  color: white;
+}
+
+
+.price{
+margin-top: 1vh;
+font-size: 1.3rem;
+}.price strong{
+ color: white;
+}
+
+
+
+
+
+  
+
+  
+.divisor{
+    border-radius: 20vw;
+    background-color: white;
+    height: 0.1vh;
+    margin-left: 10.5vw;
+    margin-right: 10.5vw;
+}
