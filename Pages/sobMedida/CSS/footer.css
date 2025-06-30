@@ -5,15 +5,18 @@
     
 }
 
-.logoContainer{
-   width: 8vw;
-}.footerLogo{
+
+.logostrong{
+    font-size: 1.4rem;
+  margin-top: 1vh;
+  margin-left: 10.5vw;
   width: 100%;
   font-family: Merriweather;
   color: #f5f5f5;
 }
 
 .linksContainer{
+    margin-top: 1vh;
     align-items: center ;
     display: flex;
     margin-bottom: clamp(38px,5.8vh,58px);
