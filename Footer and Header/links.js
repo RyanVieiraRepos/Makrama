@@ -1,7 +1,7 @@
 let login = document.getElementById("loginContainer")
 
 login.addEventListener('click', function redirect() {
-    window.location.href = '../Pages/login/login.html'
+    window.location.href = 'https://ryanvieirarepos.github.io/Makrama/Pages/login/login.html'
 });
 
 
