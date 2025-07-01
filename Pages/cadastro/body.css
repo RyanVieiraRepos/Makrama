@@ -1,13 +1,4 @@
-
-    .body{
-        min-height: 100vh;
-        height: auto;
-        margin: 0px;
-        padding: 0px;
-        background: linear-gradient(180deg,rgb(207, 168, 115),rgb(190, 169, 140));
-        background-repeat: no-repeat;
-       }
-    
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
 .main {
@@ -16,13 +7,12 @@
     
     margin-left: 10.5vw;
     margin-right: 10.5vw;
-    
+    width: 100%;
     margin-bottom: 10vh;
-    margin-top: 5vh;
 }
 
 .mainCadastro{
-    width: clamp(300px,40vw,40vw);
+    width: 40vw;
     margin-left: 18vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 4vw;
@@ -61,7 +51,7 @@
     border-top: 0px;
     width: 18vw;
     font-size: 1.1rem;
-   
+    font-family:Merriweather ;
     color: #f5f5f5;
     margin: 1vw;
     margin-top: 4vh;
@@ -72,7 +62,7 @@
     font-size: 1.1rem;
     opacity: 65%;
     color: white;
-    
+    font-family: Merriweather;
     font-weight: 500;
 }
 
@@ -84,7 +74,7 @@
     border-top: 0px;
     width: 18vw;
     font-size: 1.1rem;
-    
+    font-family:Merriweather ;
     color: #f5f5f5;
     margin: 1vw;
     margin-top: 4vh;
@@ -95,7 +85,7 @@
     font-size: 1.1rem;
     opacity: 65%;
     color: white;
-    
+    font-family: Merriweather;
     font-weight: 500;
 }
 .dropdown{
@@ -137,7 +127,7 @@
     cursor: pointer;
 }.buttonStrong{
     color: white;
-   
+    font-family: Merriweather;
     font-weight: 600;
 
 }
@@ -161,20 +151,12 @@
 }.cadStrong{
     
     color: rgb(207, 168, 115);
-    
+    font-family: Merriweather;
     font-weight: 600;
 
 }
 
 
-
-.divisor{
-    
-    background-color: white;
-    height: 0.2vh;
-    margin-left: 10.5vw;
-    margin-right: 10.5vw;
-}
 
 
 

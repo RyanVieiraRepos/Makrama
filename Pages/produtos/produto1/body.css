@@ -1,13 +1,4 @@
-.body {
-    margin: 0px;
-    padding: 0px;
-    background: linear-gradient(180deg, rgb(202, 175, 137), rgb(177, 154, 123));
-    background-repeat: no-repeat;
-    font-family: Lusitana;
-    font-weight: 1200;
-    height: 100vh;
-     
-}
+
    .globalContainer{
    justify-content: space-between;
     width: 100%;
@@ -122,10 +113,3 @@
 }
 
    
-.divisor{
-    border-radius: 20vw;
-    background-color: white;
-    height: 0.1vh;
-    margin-left: 10.5vw;
-    margin-right: 10.5vw;
-}

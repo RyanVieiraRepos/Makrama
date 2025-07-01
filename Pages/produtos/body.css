@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Lusitana:wght@400;700&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
-.body {
-    margin: 0px;
-    padding: 0px;
-    background: linear-gradient(180deg, rgb(202, 175, 137), rgb(177, 154, 123));
-    background-repeat: no-repeat;
-    font-family: Lusitana;
-    font-weight: 1200;
-    height: 100vh;
-     
-}
 
 .products{
   display: flex;
@@ -70,10 +60,3 @@ font-size: 1.3rem;
   
 
   
-.divisor{
-    border-radius: 20vw;
-    background-color: white;
-    height: 0.1vh;
-    margin-left: 10.5vw;
-    margin-right: 10.5vw;
-}

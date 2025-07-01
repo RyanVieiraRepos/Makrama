@@ -1,12 +1,5 @@
 
-.body{
- min-height: 100vh;
- height: auto;
- margin: 0px;
- padding: 0px;
- background: linear-gradient(180deg,rgb(207, 168, 115),rgb(190, 169, 140));
- background-repeat: no-repeat;
-}
+
 
 .main{
 
@@ -56,10 +49,3 @@ font-size: 2.5rem;
 
 
 
-.divisor{
-    
-    background-color: white;
-    height: 0.2vh;
-    margin-left: 10.5vw;
-    margin-right: 10.5vw;
-}
