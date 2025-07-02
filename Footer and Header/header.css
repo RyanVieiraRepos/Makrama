@@ -54,6 +54,20 @@
 
 .loginNcart{
     display: flex;
+}.cartContainer{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    
+    width: 3vw;
+    height: 3vw;
+}.cartContainer:hover{
+  background-color: rgb(226, 204, 176);
+}.cart{
+    margin-left: 2vw;
+    
 }
 .loginContainer{
     align-items: center;
@@ -65,8 +79,8 @@
     margin-right:10vw;
     border-radius:50px ;
 
-    width: clamp(30px,3vw,200px);
-    height: 3vw;
+    width: clamp(30px,3.2vw,200px);
+    height: 3.2vw;
     
     
 }.loginContainer:hover{
