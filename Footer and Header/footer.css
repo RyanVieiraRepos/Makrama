@@ -26,10 +26,17 @@
 
     margin-left: 12.7vw;
     cursor: pointer;
+    transition: 0.1s;
+}.whatsappContainer:hover{
+    transform: scale(1.1);
 }
 .instagramContainer{
     margin-left: 1vw;
     margin-right:10.5vw ;
+    cursor: pointer;
+    transition: 0.1s;
+}.instagramContainer:hover{
+    transform: scale(1.1);
 }
 
 
