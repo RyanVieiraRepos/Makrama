@@ -53,14 +53,17 @@
     text-decoration: none;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 13px;
     transition: all 0.1s;
 }.nav:hover{
  transform: scale(1.1);
  color: rgb(152, 126, 88);
+ 
 }
 
 
 .loginNcart{
+    margin-top:15px;
     display: flex;
 }.cartContainer{
     align-items: center;
@@ -69,15 +72,21 @@
     cursor: pointer;
     border-radius: 50%;
     
-    width: clamp(30px,3.5vw,200px);
+    width: clamp(30px,1.8vw,200px);
     height: 3.5vw;
-}.cartContainer:hover{
-  background-color: rgb(226, 204, 176);
+    transition: all 0.2s;
+    margin-right: 1vw;
+    background-image: url(https://ryanvieirarepos.github.io/Makrama/images/cart.png);
+}.cartContainer .cartimg:hover{
+   width: clamp();
+   transform: scale(1.2);
+   
 }.cartimg{
     margin-top: 0.2vw;
     margin-left: 0.6vw;
-    width: 2.3vw;
+    width: 100%;
     height: auto;
+    transition: 0.2s;
     
 }
 .loginContainer{
@@ -86,11 +95,11 @@
     display: flex;
     cursor: pointer;
 
-
+    margin-left: 1vw;
     margin-right:10vw;
     border-radius:50px ;
 
-    width: clamp(30px,3.5vw,200px);
+    width: clamp(50px,3.5vw,200px);
     height: 3.5vw;
     
     
