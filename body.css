@@ -1,51 +1,69 @@
+    @media(max-width:630px){
+        .main{display: flex;flex-direction: column;}
+        .title{display: none;}
+        .paragraph{display: none;}
+        .img{display: none;}
+
+        
+        .titleMobile{
+        display:block;
+        color: white;
+        font-size: 2rem;
+    }
+    }
 
 
+        .main{
 
-.main{
-
-    display: flex;
-    justify-content: space-between;
-    
-    
-    width: 100%;
-    
-    margin-top: 10vh;
-    margin-bottom: 8.9vh;
-}
-
-
-.img{
-    margin-left: 10.5vw;
-    width: 22vw;
-    height: 100%;
-    border-radius: 1vw;
-    
-    cursor: pointer;
-    
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    transition: all 0.2s;
-}.img:hover{
- transform: scale(1.1);
-}
+            display: flex;
+            justify-content: space-between;
+            
+            
+            height: 400px;
+            width: 100%;
+            margin-top: 10vh;
+            margin-bottom: 8.9vh;
+        }
 
 
-.text{
-    margin-right: 10.5vw;
-    margin-left: 10vw;
-    margin-top: 2vw;
-}
-
-.title{
-margin-right: 2vw;
-color: white;
-font-size: 2.5rem;
-}.paragraph{
-    color: white;
-    font-size: 1.4rem;
-    margin-top: 2vw;
-    
-}
+        .img{
+            margin-left: 10.5vw;
+            width: clamp(250px,30vw,100%);
+            height: auto;
+            border-radius: 1vw;
+            
+            cursor: pointer;
+            
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+            transition: all 0.2s;
+        }.img:hover{
+        transform: scale(1.1);
+        }
 
 
+        .text{
+            margin-right: 10.5vw;
+            margin-left: 10vw;
+            margin-top: 2vw;
+            height: 100%;
+            overflow: hidden;
+        
+        }
 
+        .title{
+        margin-right: 2vw;
+        color: white;
+        font-size: clamp(2vw,2.97vw,10vw);
+        }.paragraph{
+            color: white;
+            
+            margin-top: 2vw;
+            font-size: clamp(14.36px,1.82vw,10vw);
+            
+        }
+
+
+        .titleMobile{
+            display: none;
+        }
 
