@@ -92,7 +92,7 @@
    .block2{
     height:14px;
    }
-   .cartContainer{
+   .cartCont{
     text-align: center;
     justify-content: space-between;
     align-items: center;
@@ -105,9 +105,9 @@
     cursor: pointer;
     transition:all 0.030s ease-out;
     margin-left: 30px ;
-   }.cartContainer:hover{
+   }.cartCont:hover{
     transform:scale(1.05) ;
-}   .cartContainerStrong{
+}   .cartContStrong{
     color: rgb(207, 168, 115);
     font-size:17px ;
 }
