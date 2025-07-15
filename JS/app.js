@@ -1,7 +1,7 @@
     //product redirect
         let product = document.getElementById("product")
 
-        product.addEventListener('click', function redirect() {
+        product.addEventListener('click', function () {
             window.location.href='https://ryanvieirarepos.github.io/Makrama/Pages/produtos/produto1/produto1.html'
         })
 
@@ -15,6 +15,12 @@
 
 let imgcont = document.getElementById("imgcont")
 
-        product.addEventListener('click', function redirect() {
+        product.addEventListener('click', function () {
             window.location.href='https://ryanvieirarepos.github.io/Makrama/Pages/produtos/produto1/produto1.html'
+        })
+
+let button = document.getElementById("button")
+
+        button.addEventListener('click', function redirect(){
+            window.location.href = 'https://ryanvieirarepos.github.io/Makrama/Pages/produtos/produtos.html';
         })

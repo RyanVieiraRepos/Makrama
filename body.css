@@ -12,7 +12,7 @@
     }
     }
 
-
+    
         .main{
 
             display: flex;
@@ -51,7 +51,8 @@
             margin-top: 2vw;
             height: 100%;
             overflow: hidden;
-        
+            display: flex;
+            flex-direction: column;
         }
 
         .title{
@@ -65,7 +66,20 @@
             font-size: clamp(14.36px,1.62vw,10vw);
             
         }
-
+        #button{
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            width:16vw;
+            height: 4vw;
+            border-radius: 1vw;
+            border: 3px dashed  rgba(255, 255, 255, 0.896);
+            background-color:  none;
+           
+            background: none;
+            font-size: 2rem;
+            cursor: pointer;
+            color:  rgba(255, 255, 255, 0.896);
+        }
 
         .titleMobile{
             display: none;
