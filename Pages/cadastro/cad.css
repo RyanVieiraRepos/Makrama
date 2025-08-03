@@ -1,35 +1,33 @@
-
-
 .main {
     justify-content: space-between;
     align-items: center;
-    
+
     margin-left: 10.5vw;
     margin-right: 10.5vw;
     width: 100%;
     margin-bottom: 10vh;
 }
 
-.mainCadastro{
+.mainCadastro {
     width: 40vw;
     margin-left: 18vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 4vw;
-    border-radius:1vw ;
-    
-    
-    
-    
-    
+    border-radius: 1vw;
+
+
+
+
+
 }
 
-.form{
+.form {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cont{
+.cont {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,25 +37,27 @@
 
 
 
-.nomeDiv{
-  margin-right: 2vw;
+.nomeDiv {
+    margin-right: 2vw;
 }
 
-.input{
+.input {
     border-bottom: 1px solid white;
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
     width: 18vw;
     font-size: 1.1rem;
-    font-family:Merriweather ;
+    font-family: Merriweather;
     color: #f5f5f5;
     margin: 1vw;
     margin-top: 4vh;
     background: transparent;
     outline: 0px;
     caret: rgb(80, 78, 78);
-}.input::placeholder{
+}
+
+.input::placeholder {
     font-size: 1.1rem;
     opacity: 65%;
     color: white;
@@ -66,30 +66,59 @@
 }
 
 
-.input1{
+.input1 {
     border-bottom: 1px solid white;
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
     width: 18vw;
     font-size: 1.1rem;
-    font-family:Merriweather ;
+    font-family: Merriweather;
     color: #f5f5f5;
     margin: 1vw;
     margin-top: 4vh;
+    margin-right: 1vw;
     background: transparent;
     outline: 0px;
     caret: rgb(80, 78, 78);
-}.input1::placeholder{
+}
+
+.input1::placeholder {
     font-size: 1.1rem;
     opacity: 65%;
     color: white;
     font-family: Merriweather;
     font-weight: 500;
 }
-.dropdown{
-    width: 50%;
 
+
+.dateCont {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.date {
+    font-size: 1.1rem;
+    color: white;
+    margin-right: 0.5vw;
+
+    margin-top: ;
+    background: none;
+    border-radius: 0.3vw;
+    border: 1px solid white;
+    width: 18vw;
+    text-align: center;
+    padding: 0.3vw;
+
+}
+
+.dateStrong {
+    color: white;
+    font-size: 0.9rem;
+    margin-right: 1vw;
 }
 
 
@@ -103,13 +132,11 @@
 
 
 
-
-
-.buttons{
+.buttons {
     display: flex;
 }
 
-.button{
+.button {
     margin-top: 4vh;
     border-radius: 1vh;
     border: dashed 0.13vw #f5f5f5;
@@ -124,7 +151,9 @@
     background: none;
     transition: 0.3s all;
     cursor: pointer;
-}.buttonStrong{
+}
+
+.buttonStrong {
     color: white;
     font-family: Merriweather;
     font-weight: 600;
@@ -132,14 +161,14 @@
 }
 
 
-.cadButton{
+.cadButton {
     margin-top: 4vh;
     border-radius: 1vh;
-    
+
 
     justify-content: center;
     align-items: center;
-    display:flex;
+    display: flex;
 
     margin-left: 0.5vw;
     height: 4vh;
@@ -147,17 +176,12 @@
     background-color: white;
     transition: 0.3s all;
     cursor: pointer;
-}.cadStrong{
-    
+}
+
+.cadStrong {
+
     color: rgb(207, 168, 115);
     font-family: Merriweather;
     font-weight: 600;
 
 }
-
-
-
-
-
-
-
