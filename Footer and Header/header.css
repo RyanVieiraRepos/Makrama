@@ -84,7 +84,7 @@
 }.cartContainer .cartimg:hover{
    width: clamp();
    transform: scale(1.2);
-   background-color: ;
+ 
 }.cartimg{
     margin-top: 0.2vw;
     margin-left: 0.6vw;
