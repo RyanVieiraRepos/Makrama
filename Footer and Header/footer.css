@@ -1,55 +1,47 @@
-.footer {
+.footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
-
-
+    
 }
 
 
-.logostrong {
+.logostrong{
     font-size: 1.4rem;
-    margin-top: 1vh;
-    margin-left: 10.5vw;
-    width: 100%;
-    font-family: Merriweather;
-    color: #f5f5f5;
+  margin-top: 1vh;
+  margin-left: 10.5vw;
+  width: 100%;
+  font-family: Merriweather;
+  color: #f5f5f5;
 }
 
-.linksContainer {
+.linksContainer{
     margin-top: 1vh;
-    align-items: center;
+    align-items: center ;
     display: flex;
-    margin-bottom: clamp(38px, 5.8vh, 58px);
+    margin-bottom: clamp(38px,5.8vh,58px);
+    
 
-
-}
-
-.whatsappContainer {
+}.whatsappContainer{
 
     margin-left: 12.7vw;
     cursor: pointer;
     transition: 0.1s;
-}
-
-.whatsappContainer:hover {
+}.whatsappContainer:hover{
     transform: scale(1.1);
 }
-
-.instagramContainer {
+.instagramContainer{
     margin-left: 1vw;
-    margin-right: 10.5vw;
+    margin-right:10.5vw ;
     cursor: pointer;
     transition: 0.1s;
-}
-
-.instagramContainer:hover {
+}.instagramContainer:hover{
     transform: scale(1.1);
 }
 
 
-.divisor {
-
+.divisor{
+    
     background-color: white;
     height: 0.2vh;
     margin-left: 10.5vw;
