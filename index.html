@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta author="Ryan Vieira Assumpção" />
+  <meta description="Descrição" />
+
+  <title>Makrama</title>
+
+  <link rel="stylesheet" href="index.css" />
+
+  <link rel="stylesheet" href="./Components//Footer/Footer.css" />
+  <link rel="stylesheet" href="./Components/Header/Header.css" />
+  <link rel="stylesheet" href="../Makrama Sep/Components/Pages/Home/Home.css" />
+
+  <link rel="stylesheet" href="../Makrama Sep/Components/Pages/Admin/dashboard.css" />
+  <link rel="stylesheet" href="../Makrama Sep/Components/Pages/Admin/Produtos/Produtos.css" />
+  <link rel="stylesheet" href="../Makrama Sep/Components/Pages/Admin/Clientes/Clientes.css">
+  <link rel="stylesheet" href="../Makrama Sep/Components/Pages/Admin/Pedidos/Pedidos.css">
+
+
+  <link rel="icon" type="image/x-icon" href="./Js Icon.png" />
+</head>
+
+<body>
+
+
+  <main-header></main-header>
+
+
+
+
+
+  <div id="layout">
+    <main-dash></main-dash>
+
+    <div class="produtosCont">
+
+      <div class="produtosHead">
+        <strong>Produtos</strong>
+        <div class="produtosSearchCont">
+          <input placeholder="Pesquise">
+          <button>Adicionar Produtos</button>
+          <select>
+            <option>Filtrar por</option>
+            <option>Ordem Alfabética</option>
+            <option>Quantidade de Pedidos</option>
+          </select>
+
+
+
+        </div>
+
+      </div>
+
+
+      <div class="table">
+
+        <div class="tableHead">
+          <strong>#</strong>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <main-footer></main-footer>
+
+
+
+  <script src="./Components/Footer/Footer.js"></script>
+  <script src="./Components/Header/Header.js"></script>
+  <script src="./Components/Pages/Home/Home.js"></script>
+
+
+  <script src="./Components/Pages/Admin/dashboard.js"></script>
+  <script src="./Components/Pages/Admin/Clientes/Clientes.js"></script>
+  <script src="./Components/Pages/Admin/Pedidos/pedidos.js"></script>
+  <script src="./Components/Pages/Admin/Produtos/Produtos.js"></script>
+
+  <script src="./Javascript/app.js"></script>
+  <script src="./Javascript/redirects.js"></script>
+
+</body>
+
+</html>

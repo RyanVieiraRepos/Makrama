@@ -1,0 +1,118 @@
+@media(width <=1300px) {
+    .produtosCont {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+main-produtos {
+    width: 100%;
+
+}
+
+.produtosCont {
+    background-color: white;
+
+
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 2vw;
+}
+
+.produtosHead {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.produtosHead strong {
+    color: rgb(22, 12, 0);
+    font-size: 1.6rem;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.produtosSearchCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtosSearchCont input {
+    font-size: 1.2rem;
+    border: 2px solid rgb(22, 12, 0);
+    border-radius: 5px;
+
+}
+
+.produtosSearchCont input::placeholder {
+
+
+    opacity: 20;
+}
+
+
+.produtosSearchCont button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(22, 12, 0);
+    cursor: pointer;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.produtosSearchCont select {
+    width: 180px;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(22, 12, 0);
+    cursor: pointer;
+}
+
+
+
+.produtosSearchCont option {
+    width: 180px;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(22, 12, 0);
+    cursor: pointer;
+
+}
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+.table {
+
+    width: 100%;
+    background-color: aliceblue;
+
+
+}
+
+.tableHead strong {
+    color: rgb(47, 27, 1);
+    padding: 20px;
+}

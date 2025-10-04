@@ -1,0 +1,61 @@
+.admMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-radius: 10px;
+
+
+}
+
+.admNav {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(22, 12, 0);
+
+
+
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    height: 240px;
+
+}
+
+.admNav button {
+    width: 200px;
+    height: 50px;
+
+    margin-top: 20px;
+
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    color: white;
+
+    transition: 0.06s;
+
+
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.admNav svg {
+    margin-right: 8px;
+}
+
+.admNav button:hover {
+    transform: scale(1.1);
+}
+
+.admNav button:nth-child(1) {
+    margin-top: 20px;
+
+    width: 200px;
+    height: 50px;
+
+    cursor: pointer;
+}

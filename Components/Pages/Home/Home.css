@@ -1,0 +1,107 @@
+@media (width <=1360px) {
+  .homeCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeText {
+    align-items: center;
+  }
+
+  .homeText button {
+    margin-bottom: 40px;
+  }
+}
+
+
+
+
+
+.homeImage {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.homeImage img {
+  margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+.homeCont {
+  display: flex;
+  justify-content: space-between;
+
+
+
+
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.homeText {
+  display: flex;
+  flex-direction: column;
+
+
+
+  justify-content: first baseline;
+}
+
+.homeText strong {
+  font-size: 3.5rem;
+}
+
+.homeText button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+
+  color: rgba(195, 151, 90, 0.896);
+  font-size: 1.6rem;
+  transition: 0.1s;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.homeText button:hover {
+  transform: scale(1.1);
+}
+
+.homeText p {
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+.homeImage {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.homeImage img {
+  width: 800px;
+  height: 500px;
+
+
+
+  margin-right: ;
+
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
