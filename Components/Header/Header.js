@@ -12,7 +12,7 @@ class Header extends HTMLElement {
   
     <strong id="headerLogo">Makrama</strong>
 
-    <div style="display: flex; flex-direction: row">
+    <div style="display: flex;  flex-direction: row">
 
       <a id="headerHome">Home</a>
       <a id="headerProdutos">Produtos</a>

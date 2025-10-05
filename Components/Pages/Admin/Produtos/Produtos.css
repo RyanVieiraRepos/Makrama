@@ -14,7 +14,7 @@ main-produtos {
 
 .produtosCont {
     background-color: white;
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
     width: 100%;
     padding: 20px;
@@ -40,6 +40,7 @@ main-produtos {
 .produtosSearchCont {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .produtosSearchCont input {
@@ -65,6 +66,12 @@ main-produtos {
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 10px;
+    transition: 0.05s;
+}
+
+.produtosSearchCont button:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .produtosSearchCont select {
@@ -104,15 +111,103 @@ main-produtos {
 
 
 
-.table {
 
-    width: 100%;
-    background-color: aliceblue;
 
+.tableHead {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+
+    background-color: rgb(22, 12, 0);
+
+
+
+
+    border: solid 1px rgb(22, 12, 0);
+    border-radius: 9px;
+    margin-bottom: 3px;
 
 }
 
 .tableHead strong {
-    color: rgb(47, 27, 1);
-    padding: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+
+.table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(22, 12, 0);
+    border-radius: 9px;
+}
+
+
+
+.tableLinhas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 2px;
+
+    background-color: rgb(255, 255, 255);
+
+    color: rgb(22, 12, 0);
+
+}
+
+.tableLinhas strong {
+    color: rgb(22, 12, 0);
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    overflow: auto;
+
+}
+
+.tableLinhas strong:nth-last-child(1) {
+    display: flex;
+
+}
+
+.table .tableLinhas:nth-last-child(1) strong {
+    color: rgb(22, 12, 0);
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    overflow: auto;
+
+}
+
+.footerActions {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.footerActions svg {
+    width: 23px;
+    height: auto;
+
+    margin-right: 6px;
+    margin-left: 6px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.footerActions svg:hover {
+    transform: scale(1.1);
 }
