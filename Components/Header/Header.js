@@ -17,6 +17,7 @@ class Header extends HTMLElement {
       <a id="headerHome">Home</a>
       <a id="headerProdutos">Produtos</a>
       <a id="headerSobre">Sobre</a>
+      <a id="headerDash">Dashboard</a>
 
     </div>
 
