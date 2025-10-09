@@ -41,7 +41,7 @@ body {
 
 #layout {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1;
     min-width: auto;
 

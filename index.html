@@ -19,9 +19,9 @@
   <link rel="stylesheet" href="Components/Pages/Admin/Produtos/Produtos.css" />
   <link rel="stylesheet" href="Components/Pages/Admin/Clientes/Clientes.css">
   <link rel="stylesheet" href="Components/Pages/Admin/Pedidos/Pedidos.css">
+  <link rel="stylesheet" href="Components/Pages/Cadastro/Cadastro.css"/>
 
-
-  <link rel="icon" type="image/x-icon" href="./Js Icon.png" />
+  <link rel="icon" type="image/x-icon" href="./Js Icon.png" >
 </head>
 
 <body>
@@ -35,6 +35,48 @@
 
   <div id="layout">
     <main-home></main-home>
+    <main-dash></main-dash>
+    <dash-produtos></dash-produtos>
+    <main-pedidos></main-pedidos>
+    <main-clientes></main-clientes>
+
+    <div className="main">
+
+      <div className="mainCadastro">
+
+        <form action="/" method="POST">
+          <div className="cont">
+            <input type="text" id="nome" name="nome" className="input" placeholder="Nome" required />
+            <input type="text" id="sobrenome" name="sobrenome" className="input" placeholder="Sobrenome" required />
+          </div>
+
+          <div className="cont">
+            <input type="text" id="email" name="email" className="input" placeholder="E-mail" required />
+            <input type="password" id="password" name="password" className="input" placeholder="Senha" required />
+          </div>
+
+          <div className="cont">
+            <input type="number" id="cep" name="cep" className="input" placeholder="CEP" required
+              pattern="\d{5}-\d{3}" />
+            <input type="number" id="numero" name="numero" className="input" placeholder="Número" required />
+          </div>
+
+          <div className="cont">
+            <input type="tel" id="celular" name="celular" className="input1" placeholder="Celular" required
+              pattern="\d{5}-\d{3}" />
+            <div className="dateCont">
+              <strong className="dateStrong"> Data de nascimento </strong>
+              <input className="date" id="date" name="date" type="date" />
+            </div>
+          </div>
+
+          <div className="buttons">
+            <input type="submit" className="cadButton" value="Cadastre-se" />
+            <Link to='/Login'><a>Já possui uma conta ?</a></Link>
+          </div>
+        </form>
+      </div>
+    </div>
 
   </div>
 
@@ -48,8 +90,6 @@
 
 
   <div class="SCRIPTS">
-
-
     <script src="./Components/Header/Header.js"></script>
     <script src="./Components/Footer/Footer.js"></script>
     <script src="./Components/Pages/Home/Home.js"></script>

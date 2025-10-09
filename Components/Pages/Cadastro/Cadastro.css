@@ -1,0 +1,183 @@
+.main {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+    margin-left: 10.5vw;
+    margin-right: 10.5vw;
+    margin-top: 2vw;
+
+}
+
+
+.mainCadastro {
+    width: 40vw;
+    margin-left: 18vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-right: 1.6vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    border-radius: 1vw;
+    margin-bottom: 10vw;
+
+
+
+
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.nomeDiv {
+    margin-right: 2vw;
+}
+
+.input {
+    border-bottom: 1px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    width: 18vw;
+    font-size: 1.1rem;
+    font-family: Merriweather;
+    color: #f5f5f5;
+    margin: 1vw;
+    margin-top: 4vh;
+    background: transparent;
+    outline: 0px;
+    caret: rgb(80, 78, 78);
+}
+
+.input::placeholder {
+    font-size: 1.1rem;
+    opacity: 65%;
+    color: white;
+    font-family: Merriweather;
+    font-weight: 500;
+}
+
+
+.input1 {
+    border-bottom: 1px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    width: 16.7vw;
+    font-size: 1.1rem;
+    font-family: Merriweather;
+    color: #f5f5f5;
+    margin: 1vw;
+    margin-top: 4vh;
+    margin-right: 1vw;
+    background: transparent;
+    outline: 0px;
+    caret: rgb(80, 78, 78);
+}
+
+.input1::placeholder {
+    font-size: 1.1rem;
+    opacity: 65%;
+    color: white;
+    font-family: Merriweather;
+    font-weight: 500;
+}
+
+
+.dateCont {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.date {
+    font-size: 1.1rem;
+    color: white;
+    margin-right: 0.5vw;
+
+    background: none;
+    border-radius: 0.3vw;
+    border: 1px solid white;
+    width: 17.2vw;
+    text-align: center;
+    padding: 0.3vw;
+
+}
+
+.dateStrong {
+    color: white;
+    font-size: 0.9rem;
+    margin-right: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.cadButton {
+    margin-top: 4vh;
+    border-radius: 1vh;
+
+    border: 0.13vw dashed #f5f5f5;
+    color: rgba(195, 151, 90, 0.896);
+    background-color: none;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    margin-left: 0.5vw;
+    height: 4vh;
+    width: 100%;
+
+    transition: 0.1s all;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}.cadButton:hover{
+    transform: scale(1.03);
+}
+
+.cadButton::placeholder {
+    color: white;
+}
+
+.buttons a {
+    color: white;
+    text-decoration: none;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+}
