@@ -26,7 +26,10 @@ class Home extends HTMLElement {
             <button type="button" id="homebutton">
             Navegar!</button>
       </div>
-      
+      <div class="homeImage">
+        <img src="./Components//Pages/Home/images/aiWp.png" />
+
+      </div>
     </div>
 `;
     }
