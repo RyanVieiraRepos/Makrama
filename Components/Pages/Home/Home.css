@@ -1,22 +1,57 @@
-@media (width <=1360px) {
+@media (max-width:1360px) {
+
+
+  main-home{
+    width: 100%;
+  }
   .homeCont {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .homeText {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    
+    
+  }.homeText p{
+    align-items: self;
+    width: 100%;
+  }.homeText strong{
+    align-items: self;
+    font-size: 1rem;
+    width: 100%;
   }
 
   .homeText button {
     margin-bottom: 40px;
+    align-self:center ;
+  }
+ 
+  .homeImage{
+    
+    align-self: center;
+  }.homeImage img{
+    width: 100%;
+
   }
 }
 
 
+main-home{
+ width: 100%;
+  
+}
 
+.homeCont {
+  display: flex;
+  justify-content: space-between;
 
-
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .homeImage {
 
   display: flex;
@@ -25,37 +60,19 @@
   justify-content: center;
 
 }
-
 .homeImage img {
   margin-right: 0px;
+  
 }
 
 
 
-
-
-
-
-
-.homeCont {
-  display: flex;
-  justify-content: space-between;
-
-
-
-
-  ;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
 .homeText {
   display: flex;
   flex-direction: column;
-
-
-
   justify-content: first baseline;
+  
 }
 
 .homeText strong {
@@ -63,10 +80,11 @@
 }
 
 .homeText p {
-  width: 500px;
+  
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 1.2rem;
+  
 }
 
 .homeText button {
@@ -88,15 +106,14 @@
 
 
 .homeImage {
-
+  width:600px;
   display: flex;
   flex-direction: row;
 
 }
 
 .homeImage img {
-  width: 800px;
-  height: 500px;
+  width: 100%;
 
 
 

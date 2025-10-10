@@ -73,5 +73,5 @@ class Pedidos extends HTMLElement {
         `
     }
 }
-customElements.define('main-pedidos',Pedidos)
+customElements.define('dash-pedidos', Pedidos)
 

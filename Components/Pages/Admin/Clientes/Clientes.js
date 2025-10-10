@@ -77,5 +77,5 @@ class Clientes extends HTMLElement {
         `
     }
 }
-customElements.define('main-clientes',Clientes)
+customElements.define('dash-clientes',Clientes)
 

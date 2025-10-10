@@ -8,11 +8,10 @@ class Footer extends HTMLElement {
     </div>
 
     <div class="footerLinks">
-      <strong>Home</strong>
-      <strong>Produtos</strong>
-      <strong>Sobre nós</strong>
-      <strong>Login</strong>
-      <strong>Cadastre-se</strong>
+      <strong id='footerHome'>Home</strong>
+      <strong id='footerSobre'>Sobre nós</strong>
+      <strong id='footerLogin'>Login</strong>
+      <strong id='footerCad'>Cadastre-se</strong>
     </div>
 
     <div class="footerSocials">

@@ -8,34 +8,47 @@ function redirect(button, element) {
 
 
 //HEADER
-logo = document.getElementById("headerLogo")
+redirect(document.getElementById("headerLogo"), "main-home")
 
-home = document.getElementById("headerHome")
-products = document.getElementById("headerProdutos")
-sobre = document.getElementById("headerSobre")
-
-cart = document.getElementById("headerCart")
-login = document.getElementById("headerLogin")
+redirect(document.getElementById("headerHome"), 'main-home')
+redirect(document.getElementById("headerProdutos"), 'main-produtos')
+redirect(document.getElementById("headerSobre"), 'main-sobre')
 
 
-redirect(logo, "main-home")
-
-redirect(home, 'main-home')
-redirect(products, 'main-produtos')
-redirect(sobre, 'main-sobre')
-
-
-redirect(cart, 'main-cart')
-redirect(login, 'main-login')
+redirect(document.getElementById("headerCart"), 'main-cart')
+redirect(document.getElementById("headerLogin"), 'main-login')
 
 
 
-dash = document.getElementById("headerDash")
-dash.addEventListener("click", () => {
-    document.getElementById("layout").innerHTML = `
-    <main-dash></main-dash><dash-produtos></dash-produtos>
-    `
-})
+
 
 //FOOTER
 
+redirect(document.getElementById('footerHome'), 'main-home')
+redirect(document.getElementById('footerSobre'), 'main-sobre')
+redirect(document.getElementById('footerLogin'), 'main-login')
+redirect(document.getElementById('footerCad'), 'main-cad')
+
+
+//DASHBOARD
+
+function DashNavRedirect(button,element,element2) {
+    button.addEventListener("click", () => {
+        document.getElementById("layout").innerHTML = `
+    <${element}></${element}>
+    <${element2}></${element2}>
+    `,console.log(element2)
+    })  
+}
+
+
+DashNavRedirect(document.getElementById("headerDash"),'main-dash','dash-produtos')
+DashNavRedirect(document.getElementById("dashProdutosBtn"),'main-dash','dash-produtos')
+DashNavRedirect(document.getElementById("dashClientesBtn"),'main-dash','dash-clientes')
+DashNavRedirect(document.getElementById("dashPedidosBtn"),'main-dash','dash-pedidos')
+
+
+
+//Login
+
+redirect(document.getElementById(""),'main-cadastro')
