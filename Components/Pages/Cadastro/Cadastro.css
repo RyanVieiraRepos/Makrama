@@ -1,98 +1,81 @@
-.main {
+.cad {
+    width: 500px;
+}
+
+.cadForm {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #ffffff;
+
+    width: 100%;
+
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cadForm {
     align-items: center;
     display: flex;
 
-    margin-left: 10.5vw;
-    margin-right: 10.5vw;
-    margin-top: 2vw;
-
+    justify-content: center;
 }
 
 
-.mainCadastro {
-    width: 40vw;
-    margin-left: 18vw;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding-right: 1.6vw;
-    padding-left: 1vw;
-    padding-top: 1vw;
-    padding-bottom: 2vw;
-    border-radius: 1vw;
-    margin-bottom: 10vw;
-
-
-
-
-}
-
-.form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cont {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
-
-
-.nomeDiv {
-    margin-right: 2vw;
-}
-
-.input {
-    border-bottom: 1px solid white;
+.cadInput {
+    border-bottom: 1px solid rgb(22, 12, 0);
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
-    width: 18vw;
+
     font-size: 1.1rem;
-    font-family: Merriweather;
-    color: #f5f5f5;
-    margin: 1vw;
-    margin-top: 4vh;
+
+    margin: 15px;
+
+
     background: transparent;
     outline: 0px;
     caret: rgb(80, 78, 78);
 }
 
-.input::placeholder {
+.cadInput::placeholder {
     font-size: 1.1rem;
     opacity: 65%;
-    color: white;
-    font-family: Merriweather;
+
+
     font-weight: 500;
 }
 
 
-.input1 {
-    border-bottom: 1px solid white;
+
+
+.cadCelular {
+    border-bottom: 1px solid rgb(22, 12, 0);
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
-    width: 16.7vw;
+
     font-size: 1.1rem;
-    font-family: Merriweather;
-    color: #f5f5f5;
+
+
     margin: 1vw;
-    margin-top: 4vh;
-    margin-right: 1vw;
+
     background: transparent;
     outline: 0px;
     caret: rgb(80, 78, 78);
+
 }
 
-.input1::placeholder {
+.cadCelular::placeholder {
     font-size: 1.1rem;
     opacity: 65%;
-    color: white;
-    font-family: Merriweather;
+
+
     font-weight: 500;
 }
 
@@ -105,25 +88,24 @@
 
 }
 
-.date {
+.cadDate {
     font-size: 1.1rem;
-    color: white;
+
     margin-right: 0.5vw;
 
     background: none;
     border-radius: 0.3vw;
-    border: 1px solid white;
-    width: 17.2vw;
+    border: 1px solid rgb(22, 12, 0);
+
+    width: 199px;
+
+    margin-left: 12px;
+
     text-align: center;
     padding: 0.3vw;
 
 }
 
-.dateStrong {
-    color: white;
-    font-size: 0.9rem;
-    margin-right: 1vw;
-}
 
 
 
@@ -136,30 +118,41 @@
 
 
 
-.buttons {
+.cadButtonsCont {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.cadButtonsCont strong {
+    color: rgb(22, 12, 0);
+    cursor: pointer;
+}
+
+.cadButtonsCont strong:hover {
+    transform: scale(1.03);
+}
 
 
 
 
-.cadButton {
+.cadButtonsCont input {
     margin-top: 4vh;
     border-radius: 1vh;
 
-    border: 0.13vw dashed #f5f5f5;
-    color: rgba(195, 151, 90, 0.896);
-    background-color: none;
+
+    border: none;
+    color: #fbfbfb;
+    background-color: rgb(22, 12, 0);
 
     justify-content: center;
     align-items: center;
     display: flex;
 
+    margin-bottom: 30px;
     margin-left: 0.5vw;
+
     height: 4vh;
     width: 100%;
 
@@ -167,17 +160,9 @@
     cursor: pointer;
     font-size: 1.2rem;
 
-}.cadButton:hover{
-    transform: scale(1.03);
 }
 
-.cadButton::placeholder {
-    color: white;
-}
+.cadButtonsCont input:hover {
+    transform: scale(1.07);
 
-.buttons a {
-    color: white;
-    text-decoration: none;
-    margin-top: 0.5vw;
-    font-size: 1vw;
 }

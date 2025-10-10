@@ -1,3 +1,17 @@
+@media(width <=1300px) {
+    .headerCont {
+        width: 100%;
+        background-color: rgb(205, 189, 167);
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+main-header {
+    width: 100%;
+}
+
+
 .headerCont {
     display: flex;
     flex-direction: row;
