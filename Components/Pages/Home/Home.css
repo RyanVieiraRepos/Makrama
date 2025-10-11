@@ -23,7 +23,7 @@
     
     align-self: center;
 
-    width: auto;
+    width: 100%;
     
   }.homeText p{
     align-items: self;
@@ -76,7 +76,6 @@ main-home{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50vw;
   
 
 }
@@ -94,7 +93,6 @@ main-home{
   display: flex;
   flex-direction: column;
   justify-content: first baseline;
-  width: 50vw;
 }
 
 .homeText strong {
@@ -106,6 +104,8 @@ main-home{
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 1.2rem;
+  width: 50vw;
+  
   
 }
 

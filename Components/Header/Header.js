@@ -8,7 +8,6 @@ class Header extends HTMLElement {
     this.innerHTML = `
   <div class="headerCont">
 
-
   
     <strong id="headerLogo">Makrama</strong>
 
