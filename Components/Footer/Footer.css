@@ -1,6 +1,10 @@
-@media(width <=1300px){
-    .footerLinks{
-        flex-direction: column  ;
+@media(width <=540px) {
+    .footerLinks {
+        flex-direction: column;
+    }
+
+    .footerLinks strong {
+        margin-bottom: 9px;
     }
 }
 

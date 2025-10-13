@@ -1,16 +1,18 @@
 @media (max-width:1360px) {
 
 
-  main-home{
+  main-home {
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
   }
+
   .homeCont {
     display: flex;
     flex-direction: column;
+
     width: 100%;
   }
 
@@ -18,39 +20,37 @@
 
   .homeText {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    align-self: center;
+
 
     width: 100%;
-    
-  }.homeText p{
-    align-items: self;
-    width: 100%;
-  }.homeText strong{
-    align-self:center ;
-    font-size: 1rem;
+
+  }
+
+  .homeText p {
+
     width: 100%;
   }
+
+
 
   .homeText button {
     margin-bottom: 40px;
-    align-self:center ;
-  }
- 
-
-
-
-  .homeImage{
-    
     align-self: center;
-    width: 100vw;
   }
-  .homeImage img{
-    width: 100%;
 
+
+
+
+  .homeImage {
+
+    align-self: center;
+    width: 100%;
   }
+
+
 }
 
 
@@ -58,9 +58,9 @@
 
 
 
-main-home{
- width: 100%;
-  
+main-home {
+  width: 100%;
+
 }
 
 .homeCont {
@@ -70,20 +70,23 @@ main-home{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .homeImage {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
+  flex: 0 0 45%;
+
+
 
 }
+
 .homeImage img {
+  width: 100%;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  width: 100%;
-  
+  height: auto;
+
 }
 
 
@@ -92,21 +95,26 @@ main-home{
 .homeText {
   display: flex;
   flex-direction: column;
-  justify-content: first baseline;
+  justify-content: center;
+  align-self: center;
+  flex: 0 0 35%;
+
 }
 
 .homeText strong {
   font-size: 3.5rem;
+  align-items: center;
 }
 
 .homeText p {
-  
+
+  max-width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 1.2rem;
-  width: 50vw;
-  
-  
+
+
+
 }
 
 .homeText button {
@@ -125,5 +133,3 @@ main-home{
 .homeText button:hover {
   transform: scale(1.1);
 }
-
-

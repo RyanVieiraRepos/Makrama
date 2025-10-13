@@ -1,0 +1,21 @@
+.sobreCont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vw;
+    margin-bottom: 27.7vw;
+}
+
+.sobreStrong {
+    font-size: 2rem;
+    color: white;
+    align-self: center;
+}
+
+.sobreStrong1 {
+    margin-top: 1vw;
+    color: white;
+    font-size: 1.6rem;
+}

@@ -1,6 +1,6 @@
-class Cadastro extends HTMLElements {
-    connectedCallback() {
-        this.innerHTML = `
+class Cadastro extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <div class="cad">
       <form action="/" method="POST" class="cadForm">
 
@@ -37,5 +37,5 @@ class Cadastro extends HTMLElements {
 
     </div>
         `
-    }
+  }
 } customElements.define('main-cad', Cadastro)

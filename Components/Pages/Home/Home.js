@@ -36,3 +36,5 @@ class Home extends HTMLElement {
 
 
 } customElements.define("main-home", Home);
+
+document.getElementById('homeButton').addEventListener('')

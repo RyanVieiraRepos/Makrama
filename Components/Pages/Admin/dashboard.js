@@ -1,6 +1,6 @@
 class Dashboard extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
          <div class='admMain'>
           <div class='admNav'>
             <button id='dashProdutosBtn'>
@@ -27,7 +27,16 @@ class Dashboard extends HTMLElement {
        
     </div>
         `
-    }
+
+    
+    DashNavRedirect(document.getElementById("dashProdutosBtn"), 'main-dash', 'dash-produtos')
+    DashNavRedirect(document.getElementById("dashClientesBtn"), 'main-dash', 'dash-clientes')
+    DashNavRedirect(document.getElementById("dashPedidosBtn"), 'main-dash', 'dash-pedidos')
+
+
+  }
+
+
 }
 
-customElements.define("main-dash",Dashboard)
+customElements.define("main-dash", Dashboard)
