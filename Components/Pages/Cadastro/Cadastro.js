@@ -1,14 +1,6 @@
-<<<<<<< Updated upstream
-class Cadastro extends HTMLElements {
-    connectedCallback() {
-        this.innerHTML = `
-        <div class="cad">
-      <form action="/" method="POST" class="cadForm">
-=======
 class Cadastro extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
->>>>>>> Stashed changes
 
   <form action="/" method="POST" class="cadForm">
   

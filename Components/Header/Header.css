@@ -1,13 +1,13 @@
 @media(max-width: 1300px) {
-    main-header{
-        margin-left:0px;
-        
+    main-header {
+        margin-left: 0px;
+
     }
-    
+
     .headerCont {
         width: 100%;
-        
-        
+
+
         margin-right: none;
     }
 
@@ -29,9 +29,9 @@
 
     }
 
-   .headerCont a{
-    display: none;
-   }
+    .headerCont a {
+        display: none;
+    }
 
 
 
@@ -42,7 +42,7 @@
 }
 
 main-header {
-    
+
     margin-right: 6vw;
     margin-left: 6vw;
 }
@@ -56,7 +56,7 @@ main-header {
 
     height: 80px;
 
-   
+
 
     border-bottom: 1px solid rgb(226, 203, 174);
 
@@ -88,7 +88,7 @@ main-header {
 .headerCont svg {
 
     margin-left: 20px;
-    
+
     width: 30px;
     height: auto;
     cursor: pointer;
@@ -101,21 +101,17 @@ main-header {
 
 
 #headerSide {
-<<<<<<< Updated upstream
     display: none;
 }
 
-#headerCart svg {
+#headerCart img {
     width: 35px;
     height: auto;
 }
 
 
 
-#headerLogin svg {
+#headerLogin img {
     width: 40px;
     height: auto;
-=======
-    display: flex;
->>>>>>> Stashed changes
 }
