@@ -101,6 +101,7 @@ main-header {
 
 
 #headerSide {
+<<<<<<< Updated upstream
     display: none;
 }
 
@@ -114,4 +115,7 @@ main-header {
 #headerLogin svg {
     width: 40px;
     height: auto;
+=======
+    display: flex;
+>>>>>>> Stashed changes
 }

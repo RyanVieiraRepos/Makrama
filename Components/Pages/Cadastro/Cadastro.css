@@ -1,30 +1,50 @@
-.cad {
-    width: 500px;
+@media(max-width:640px){
+.cadForm{
+    width: 100% !important;
+    height: 590px !important;
+}.inputConts{    
+    flex-direction: column !important;
+}
+}
+
+
+main-cad{
+width: 100%;
+display: flex;
+justify-content:center;
+
+
+}
+
+
+.InputsCont{
+    display: flex;
+   flex-direction: row;
+    
 }
 
 .cadForm {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
 
     background-color: #ffffff;
 
-    width: 100%;
-
+    width: 500px;    
+    height: 400px;
     padding: 20px;
 
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                
+}#cadTitle{
+    color: rgb(22, 12, 0);
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    
 }
 
-.cadForm {
-    align-items: center;
-    display: flex;
 
-    justify-content: center;
-}
 
 
 .cadInput {
@@ -74,8 +94,6 @@
 .cadCelular::placeholder {
     font-size: 1.1rem;
     opacity: 65%;
-
-
     font-weight: 500;
 }
 
@@ -153,7 +171,7 @@
     margin-bottom: 30px;
     margin-left: 0.5vw;
 
-    height: 4vh;
+    height: 40px;
     width: 100%;
 
     transition: 0.1s all;

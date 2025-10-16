@@ -24,6 +24,7 @@ class Header extends HTMLElement {
 
 
 
+<<<<<<< Updated upstream
     <div style="display: flex; flex-direction: row; ">
       
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -49,6 +50,18 @@ class Header extends HTMLElement {
     
   </div>
   `
+=======
+        <div style="display: flex; flex-direction: row; ">
+           <img id='headerCart' src='./Components/Header/icons/cart.png'> 
+           <img id='headerLogin' src='./Components/Header/icons/person.png'> 
+           <img id='sidebar' src='./Components/Header/icons/list.png'> 
+        </div>
+
+
+
+        
+        `
+>>>>>>> Stashed changes
   }
 }
 

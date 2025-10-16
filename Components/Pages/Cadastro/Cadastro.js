@@ -1,10 +1,20 @@
+<<<<<<< Updated upstream
 class Cadastro extends HTMLElements {
     connectedCallback() {
         this.innerHTML = `
         <div class="cad">
       <form action="/" method="POST" class="cadForm">
+=======
+class Cadastro extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+>>>>>>> Stashed changes
 
+  <form action="/" method="POST" class="cadForm">
+  
+  <strong id='cadTitle'>Cadastro</strong>
 
+    <div class='inputsCont'>
         <input type="text" id="nome" name="nome" placeholder="Nome" required class="cadInput" />
         <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required class="cadInput" />
 
@@ -27,15 +37,16 @@ class Cadastro extends HTMLElements {
 
         <input class="cadDate" id="date" name="date" type="date" Data de nascimento class="cadInput" />
 
-
-
-        <div class="cadButtonsCont">
-          <input type="submit" value="Cadastre-se" class="cadSubmit" />
-          <strong class="cadStrong">Já possui uma conta ?</strong>
-        </div>
-      </form>
-
     </div>
+
+    <div class="cadButtonsCont">
+      <input type="submit" value="Cadastre-se" class="cadSubmit"/>
+      <strong class="cadStrong">Já possui uma conta ?</strong>  
+    </div>
+</form>
+
+
+    
         `
     }
 } customElements.define('main-cad', Cadastro)
