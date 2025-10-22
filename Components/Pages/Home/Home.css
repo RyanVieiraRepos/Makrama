@@ -61,6 +61,8 @@
 main-home {
   width: 100%;
 
+
+
 }
 
 .homeCont {
@@ -69,6 +71,8 @@ main-home {
 
   margin-top: 50px;
   margin-bottom: 50px;
+
+
 }
 
 .homeImage {
@@ -95,8 +99,8 @@ main-home {
 .homeText {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-self: center;
+
+
   flex: 0 0 35%;
 
 }

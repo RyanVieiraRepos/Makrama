@@ -8,8 +8,8 @@
 //o this, referencia ao objeto criado ( Header )
 
 class Home extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <div class="homeCont">
           <div class="homeText">
             <strong>Artesanais que encantam!</strong>
@@ -23,7 +23,7 @@ class Home extends HTMLElement {
           mattis dignissim lacinia. Cur.
         </p>
 
-            <button type="button" id="homebutton">
+            <button type="button" id="homeButton">
             Navegar!</button>
       </div>
       <div class="homeImage">
@@ -32,9 +32,28 @@ class Home extends HTMLElement {
       </div>
     </div>
 `;
-    }
 
 
+    document.getElementById('homeButton').addEventListener('click', () => {
+      document.getElementById('layout').innerHTML = `
+  <main-produtos><main-produtos>
+  `
+
+      console.log(document.getElementById('homeButton'))
+    })
+
+
+
+
+
+
+
+
+
+
+
+  }
 } customElements.define("main-home", Home);
 
-document.getElementById('homeButton').addEventListener('')
+
+
