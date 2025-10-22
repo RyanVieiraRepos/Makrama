@@ -6,9 +6,7 @@ class Login extends HTMLElement {
 
                         <input
                             type="text"
-                            id="email2"
-                            name="email2"
-                            className="input2"
+                            id="loginEmail"
                             placeholder="E-Mail"
                             required
                         />
@@ -16,17 +14,16 @@ class Login extends HTMLElement {
 
                         <input
                             type="password"
-                            id=""
-                            name=""
-                            
+                            id="loginSenha"
                             placeholder="Senha"
                             required
                         />
                         
 
                         <div class="loginButtons">
-                            <strong>Login</strong>
+                            <button>Login</button>
                             <strong>Não possui uma conta ?</strong>
+                            <strong>Esqueci a minha senha</strong>
                         </div>
 
                         
