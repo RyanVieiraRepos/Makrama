@@ -2,6 +2,7 @@ main-login {
     display: flex;
     justify-content: center;
     width: 100%;
+    
 
 }
 
@@ -66,9 +67,17 @@ main-login {
     transform: scale(1.03);
 }
 
-.loginButtons strong{
+#noAccount{
     font-size: 1.2rem;
     cursor: pointer;
     margin-top: 7px;
     margin-bottom: 7px;
+}
+
+#loginLoss{
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
 }

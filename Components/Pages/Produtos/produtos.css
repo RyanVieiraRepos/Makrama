@@ -1,3 +1,11 @@
 main-produtos {
     background-color: aliceblue;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+main-produtos button{
+    width: 50vw;
+    background-color: wheat;
 }

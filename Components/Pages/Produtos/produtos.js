@@ -1,7 +1,8 @@
 class Produtos extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-    <button>
+        
+        <button>
       <img>
 
        <strong>Nome</strong>
@@ -9,9 +10,12 @@ class Produtos extends HTMLElement {
        <strong>Descrição</strong>
        <strong>Preço</strong>
     </button>
-    `
+    
+    
+    
+`
+        console.log('produtos')
     }
-
 
 
 

@@ -1,13 +1,8 @@
-
-
-
-
 class Header extends HTMLElement {
   connectedCallback() {
 
     this.innerHTML = `
       <div class="headerCont">
-
 
         <strong id="headerLogo">Makrama</strong>
 
@@ -18,8 +13,6 @@ class Header extends HTMLElement {
           <a id="headerSobre">Sobre</a>
           <a id="headerDash">Dashboard</a>
         </div>
-
-
 
 
 

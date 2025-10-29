@@ -31,11 +31,24 @@ class Cadastro extends HTMLElement {
 
         <div class="cadButtonsCont">
           <input type="submit" value="Cadastre-se" class="cadSubmit" />
-          <strong class="cadStrong">Já possui uma conta ?</strong>
+          <strong class="cadStrong" id='gotAccount'>Já possui uma conta ?</strong>
         </div>
       </form>
 
     </div>
         `
+
+
+        
+document.getElementById('gotAccount').addEventListener('click',()=>{
+  document.getElementById('layout').innerHTML=`
+  <main-login></main-login>
+  `
+})
   }
-} customElements.define('main-cad', Cadastro)
+} 
+
+
+
+customElements.define('main-cad', Cadastro)
+
