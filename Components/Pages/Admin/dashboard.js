@@ -27,7 +27,13 @@ class Dashboard extends HTMLElement {
        
     </div>
         `
-
+    function DashNavRedirect(button, element, element2) {
+    button.addEventListener("click", () => {
+        document.getElementById("layout").innerHTML = `
+        <${element}></${element}><${element2}></${element2}>
+        `, console.log(element2)
+    })
+}
     
     DashNavRedirect(document.getElementById("dashProdutosBtn"), 'main-dash', 'dash-produtos')
     DashNavRedirect(document.getElementById("dashClientesBtn"), 'main-dash', 'dash-clientes')

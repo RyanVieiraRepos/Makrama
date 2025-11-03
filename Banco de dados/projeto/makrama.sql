@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03/10/2025 às 23:06
+-- Tempo de geração: 03/11/2025 às 23:53
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -39,6 +39,17 @@ CREATE TABLE `clientes` (
   `nascimento` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Despejando dados para a tabela `clientes`
+--
+
+INSERT INTO `clientes` (`id`, `nome`, `sobrenome`, `email`, `senha`, `cep`, `numero`, `celular`, `nascimento`) VALUES
+(1, 'Lucas', 'Ferreira', 'lucasf@gmail.com', '12345', '04567-210', 102, '11987654321', '1997-04-12'),
+(2, 'Mariana', 'Souza', 'mariana.s@gmail.com', 'abc123', '03045-600', 350, '11976543210', '1994-10-28'),
+(3, 'Rafael', 'Oliveira', 'rafael.oli@gmail.com', 'senha321', '02730-190', 22, '11999887766', '2000-06-05'),
+(4, 'Beatriz', 'Lima', 'bea.lima@gmail.com', 'minhasenha', '04012-340', 78, '11988776655', '1999-02-19'),
+(5, 'João', 'Santos', 'joaos@gmail.com', 'pass2024', '05543-120', 459, '11977665544', '1995-09-10');
+
 -- --------------------------------------------------------
 
 --
@@ -66,6 +77,17 @@ CREATE TABLE `pedidos` (
   `entregue` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Despejando dados para a tabela `pedidos`
+--
+
+INSERT INTO `pedidos` (`id`, `fk_cliente`, `data`, `pagamento`, `total`, `entregue`) VALUES
+(1, 1, '2025-10-01 00:00:00', 'Cartão', 140.00, 1),
+(2, 2, '2025-10-03 00:00:00', 'Pix', 25.00, 0),
+(3, 3, '2025-10-05 00:00:00', 'Boleto', 180.00, 1),
+(4, 4, '2025-10-06 00:00:00', 'Cartão', 45.00, 1),
+(5, 5, '2025-10-08 00:00:00', 'Pix', 135.00, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -81,6 +103,17 @@ CREATE TABLE `produtos` (
   `preco` decimal(19,2) NOT NULL,
   `tipo` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Despejando dados para a tabela `produtos`
+--
+
+INSERT INTO `produtos` (`id`, `nome`, `cor`, `descricao`, `imagem`, `preco`, `tipo`) VALUES
+(1, 'Pulseira de Macramê', 'Vermelha', 'Pulseira artesanal feita com fio encerado', 'pulseira1.jpg', 25.00, 'acessório'),
+(2, 'Colar Boho', 'Marrom', 'Colar artesanal com contas de madeira', 'colar1.jpg', 45.00, 'acessório'),
+(3, 'Painel Decorativo', 'Bege', 'Painel de parede feito em macramê', 'painel1.jpg', 120.00, 'decoração'),
+(4, 'Chaveiro Nó Simples', 'Azul', 'Chaveiro artesanal em nó duplo', 'chaveiro1.jpg', 15.00, 'utilitário'),
+(5, 'Bolsa Macramê', 'Branca', 'Bolsa feita à mão em corda de algodão', 'bolsa1.jpg', 180.00, 'acessório');
 
 --
 -- Índices para tabelas despejadas
@@ -122,7 +155,7 @@ ALTER TABLE `produtos`
 -- AUTO_INCREMENT de tabela `clientes`
 --
 ALTER TABLE `clientes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de tabela `listados`
@@ -134,13 +167,13 @@ ALTER TABLE `listados`
 -- AUTO_INCREMENT de tabela `pedidos`
 --
 ALTER TABLE `pedidos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de tabela `produtos`
 --
 ALTER TABLE `produtos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Restrições para tabelas despejadas

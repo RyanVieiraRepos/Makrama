@@ -8,7 +8,7 @@ class Produtos extends HTMLElement {
         <strong>Produtos</strong>
         <div class="produtosSearchCont">
           <input placeholder="Pesquise">
-          <button>Adicionar Produto</button>
+          <button id='addProductButton'>Adicionar Produto</button>
           <select>
 
             <option>Ordem Alfabética</option>
@@ -169,5 +169,15 @@ class Produtos extends HTMLElement {
 
     </div>
         `
+
+        document.getElementById('addProductButton').addEventListener('click',()=>{
+          document.getElementById('layout').innerHTML=`
+          <main-dash></main-dash>
+          <dash-produtos></dash-produtos>
+          <dash-addProd></dash-addProd>
+          `
+        })
     }
 } customElements.define("dash-produtos", Produtos)
+
+

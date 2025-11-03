@@ -72,6 +72,10 @@ main-cad {
 
 #cadHeader svg {
     display: none;
+    cursor: pointer;
+    transition: 0.1s;
+}#cadHeader svg:hover {
+    transform: scale(1.1);
 }
 
 .cadInput {

@@ -1,14 +1,16 @@
-class Cadastro extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
-        <div class="cad">
+class addProduct extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        
+
+ <div class="cad">
         
       <form action="/" method="POST" class="cadForm">
       
 
 
       <div id='cadHeader'>
-          <strong>Cadastro</strong>
+          <strong>Adicionar produto</strong>
           <svg id='cadClose' xmlns="http://www.w3.org/2000/svg" fill="black" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32">
             <path
                 d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z">
@@ -50,30 +52,9 @@ class Cadastro extends HTMLElement {
       </form>
 
     </div>
+
         `
-document.getElementById('gotAccount').addEventListener('click', () => {
-  document.getElementById('layout').innerHTML = `
-  <main-login></main-login>
-  `
-})
-
-
-    document.getElementById("cadClose").addEventListener('click', () => {
-
-      document.querySelector("main-cad").style.display = 'none'
-    })
-
-
-  }
+    }
 }
 
-
-
-customElements.define('main-cad', Cadastro)
-
-
-
-
-
-
-
+customElements.define('dash-addProd', addProduct)
