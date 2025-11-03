@@ -1,6 +1,6 @@
 class Clientes extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         
           <div class="produtosCont">
 
@@ -8,7 +8,7 @@ class Clientes extends HTMLElement {
         <strong>Clientes</strong>
         <div class="produtosSearchCont">
           <input placeholder="Pesquise">
-          
+          <button type='button' id='DashCadCliente'>Cadastrar Cliente</button>
           <select>
 
             <option>Ordem Alfabética</option>
@@ -75,7 +75,33 @@ class Clientes extends HTMLElement {
 
     </div>
         `
-    }
-}
-customElements.define('dash-clientes',Clientes)
+        document.getElementById("DashCadCliente").addEventListener('click', () => {
+  
+         document.getElementById('layout').innerHTML += `
+         <main-cad></main-cad>`
 
+
+         document.getElementById('cadHeader').style.justifyContent='space-between'
+         document.querySelector('#cadHeader svg').style.display='flex'
+         document.getElementById('gotAccount').style.display='none'
+         document.getElementById('gotAccount').text='Cadastrar'
+  
+})
+  }
+
+
+  
+}
+customElements.define('dash-clientes', Clientes)
+
+
+
+
+
+
+
+
+// <div id='cadHeader'>
+//        <strong>Cadastro</strong>
+    
+//       </div>

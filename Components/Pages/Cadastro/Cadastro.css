@@ -1,7 +1,22 @@
 @media(max-width:640px) {
+
+    .cad {
+        align-items: center;
+    }
+
     .cadForm {
-        width: 100% !important;
-        height: 590px !important;
+        width: 85% !important;
+    }
+
+    .cadForm input {
+        width: 80%;
+    }
+
+    .cadDate {
+        margin-top: 4vw;
+        border-radius: 30px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 
     .inputConts {
@@ -14,7 +29,7 @@ main-cad {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -27,13 +42,15 @@ main-cad {
 
 .cadForm {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     background-color: #ffffff;
 
     width: 500px;
-    height: 400px;
+
     padding: 20px;
 
     border-radius: 10px;
@@ -41,15 +58,23 @@ main-cad {
 
 }
 
-#cadTitle {
+
+
+
+#cadHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
     color: rgb(22, 12, 0);
     font-size: 1.6rem;
-    margin-bottom: 30px;
-
 }
 
-
-
+#cadHeader svg {
+    display: none;
+}
 
 .cadInput {
     border-bottom: 1px solid rgb(22, 12, 0);
