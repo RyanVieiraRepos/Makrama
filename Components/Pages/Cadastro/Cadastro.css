@@ -34,16 +34,12 @@ main-cad {
 }
 
 
-.InputsCont {
-    display: flex;
-    flex-direction: row;
 
-}
 
 .cadForm {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 
@@ -70,6 +66,8 @@ main-cad {
     width: 100%;
     color: rgb(22, 12, 0);
     font-size: 1.6rem;
+
+
 }
 
 #cadHeader svg {
@@ -170,6 +168,8 @@ main-cad {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
 }
 
 .cadButtonsCont strong {
@@ -212,4 +212,8 @@ main-cad {
 .cadButtonsCont input:hover {
     transform: scale(1.07);
 
+}
+
+.cadSubmit {
+    width: 200px !important;
 }

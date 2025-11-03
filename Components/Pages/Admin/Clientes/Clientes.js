@@ -77,22 +77,33 @@ class Clientes extends HTMLElement {
         `
         document.getElementById("DashCadCliente").addEventListener('click', () => {
   
-         document.getElementById('layout').innerHTML += `
-         <main-cad></main-cad>`
+           document.getElementById('layout').innerHTML = `
+           <main-dash></main-dash>
+           <dash-clientes></dash-clientes>
+           <main-cad></main-cad>` 
 
+           document.querySelector('main-cad').classList='cadDashClientes'
 
-         document.getElementById('cadHeader').style.justifyContent='space-between'
-         document.querySelector('#cadHeader svg').style.display='flex'
-         document.getElementById('gotAccount').style.display='none'
-         document.getElementById('gotAccount').text='Cadastrar'
+           document.getElementById('cadHeader').style.justifyContent='space-between'
+           
+        
+           document.querySelector('#cadHeader svg').style.display='flex'
+
+           document.getElementById('gotAccount').style.display='none'
+         
+
+           
   
 })
-  }
 
+  }   
+        
 
   
 }
 customElements.define('dash-clientes', Clientes)
+
+
 
 
 

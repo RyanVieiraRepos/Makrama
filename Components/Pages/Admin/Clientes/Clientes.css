@@ -1,3 +1,18 @@
-dash-clientes{
+dash-clientes {
     width: 100%;
+}
+
+
+
+.cadDashClientes {
+    display: flex;
+    position: fixed;
+    top: 20%;
+    left: 0%;
+
+    margin-right: 15px;
+    margin-left: 15px;
+
+
+
 }
