@@ -6,6 +6,8 @@
 
     .cadForm {
         width: 85% !important;
+        justify-content: center;
+        align-items: center;
     }
 
     .cadForm input {
