@@ -1,4 +1,4 @@
-class Produtos extends HTMLElement {
+class dashProdutos extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         
@@ -178,6 +178,6 @@ class Produtos extends HTMLElement {
           `
         })
     }
-} customElements.define("dash-produtos", Produtos)
+} customElements.define("dash-produtos", dashProdutos)
 
 
