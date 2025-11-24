@@ -6,5 +6,10 @@ app.get('/', (req, res) => {
     res.send('hi')
 })
 
+app.get('/', (req, res) => {
+    console.log('here')
+    res.send('hi')
+})
+
 app.listen(3000)
 
