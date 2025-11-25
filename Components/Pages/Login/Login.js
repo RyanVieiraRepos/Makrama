@@ -21,7 +21,7 @@ class Login extends HTMLElement {
                         
 
                         <div class="loginButtons">
-                            <button>Login</button>
+                            <button id='loginButton'>Login</button>
                             <strong id='noAccount'>Não possui uma conta ?</strong>
                             <strong id='loginLoss'>Esqueci a minha senha</strong>
                         </div>
@@ -29,11 +29,16 @@ class Login extends HTMLElement {
                         
                     </form>
     `
-    document.getElementById('noAccount').addEventListener('click',()=>{
-        document.getElementById("layout").innerHTML=`
+        document.getElementById('noAccount').addEventListener('click', () => {
+            document.getElementById("layout").innerHTML = `
         <main-cad></main-cad>
         `
-    })
+        })
     }
+
 } customElements.define('main-login', Login)
 
+
+document.getElementById('loginButton').addEventListener('click', () => {
+    alert('click')
+})
