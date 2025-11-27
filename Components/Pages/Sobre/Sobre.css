@@ -1,3 +1,7 @@
+main-sobre {
+    width: 100%;
+}
+
 .sobreCont {
     display: flex;
     align-items: center;
@@ -6,11 +10,12 @@
     flex-direction: column;
     margin-top: 3vw;
     margin-bottom: 27.7vw;
+
 }
 
-.sobreStrong {
-    font-size: 2rem;
-    color: white;
+.aboutTitle {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
     align-self: center;
 }
 
