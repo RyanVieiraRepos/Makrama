@@ -34,11 +34,12 @@ class Login extends HTMLElement {
         <main-cad></main-cad>
         `
         })
+
+
+
+
+
     }
 
 } customElements.define('main-login', Login)
 
-
-document.getElementById('loginButton').addEventListener('click', () => {
-    alert('click')
-})

@@ -20,7 +20,18 @@ main-produtos div {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: 0.07s;
-}main-produtos div:hover{
+
+    width: 400px;
+    height: 600px;
+
+}
+
+main-produtos img {
+    height: 500px;
+    width: 100%;
+}
+
+main-produtos div:hover {
     transform: scale(1.02);
 }
 
