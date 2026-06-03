@@ -1,14 +1,14 @@
 class Login extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <form class="loginForm" action="/">
+            <div class="loginForm">
                         <strong class="loginTitle">Login</strong>
 
                         <input
                             type="text"
                             id="loginEmail"
                             placeholder="E-Mail"
-                            required
+                            
                         />
                         
 
@@ -16,7 +16,7 @@ class Login extends HTMLElement {
                             type="password"
                             id="loginSenha"
                             placeholder="Senha"
-                            required
+                            
                         />
                         
 
@@ -27,7 +27,7 @@ class Login extends HTMLElement {
                         </div>
 
                         
-                    </form>
+                    </div>
     `
         document.getElementById('noAccount').addEventListener('click', () => {
             document.getElementById("layout").innerHTML = `
@@ -38,6 +38,38 @@ class Login extends HTMLElement {
 
 
 
+
+
+
+  const BtnLogin = document.getElementById('loginButton')
+  
+
+  function ifEmpty(email,senha){
+    
+    if(!email || !senha){
+       
+       BtnLogin.classList.add('shake-element')
+       setInterval(()=>{
+        BtnLogin.classList.remove('shake-element')
+       },500)
+    }else{
+        FecthLogin(email,senha)
+    }
+
+  }
+
+  function FecthLogin(email,senha){
+       console.log(email + senha)
+  } 
+  
+
+
+
+  BtnLogin.addEventListener('click',()=>{
+    const InputEmail = document.getElementById('loginEmail').value
+    const InputSenha = document.getElementById('loginSenha').value
+    ifEmpty(InputEmail,InputSenha)
+  })
 
     }
 
